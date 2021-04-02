@@ -8,4 +8,4 @@ if __name__ == '__main__':
 							'https://www.youtube.com/watch?v=rNk1Wi8SvNc')
 
 	print('Title:', toyStory.title)
-	print('Storyline:', toystory.storyline)
+	print('Storyline:', toyStory.storyline)
