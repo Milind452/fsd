@@ -9,3 +9,5 @@ if __name__ == '__main__':
 
 	print('Title:', toyStory.title)
 	print('Storyline:', toyStory.storyline)
+	print('Image:', toyStory.image)
+	print('Trailer:', toyStory.trailer)
