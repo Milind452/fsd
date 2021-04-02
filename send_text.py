@@ -17,7 +17,7 @@ def verify(verificationInput, verificationCode):
 
 if __name__ == '__main__':
 	account_sid = 'ACc75093f964bf9c24643b864c2700f9b9'
-	auth_token = 'd353927aca5530dc070ba54fe37eff3f'
+	auth_token = 'd353927aca5530dc070ba54fe37eff3f'		# Renew before use
 
 	verificationCode = '123456'
 	receiverNumber = '919090480487'
