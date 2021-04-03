@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 
 if __name__ == '__main__':
@@ -32,3 +33,5 @@ if __name__ == '__main__':
 								'https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg',
 								'https://www.youtube.com/watch?v=mfmrPu43DF8')
 
+	movies = [toyStory, avatar, schoolOfRock, ratatouille, midnightInParis, hungerGames]
+	fresh_tomatoes.open_movies_page(movies)
