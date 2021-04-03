@@ -10,3 +10,6 @@ class Movie():
 
 	def showTrailer(self):
 		webbrowser.open(self.trailer)
+
+	def __str__(self):
+		return '\nTitle: {}\nStoryline: {}\nImage: {}\nTrailer: {}\n'.format(self.title, self.storyline, self.image, self.trailer)
