@@ -25,4 +25,22 @@ if __name__ == '__main__':
 	# print('Image:', avatar.image)
 	# print('Trailer:', avatar.trailer)
 
-	avatar.showTrailer()
+	schoolOfRock = media.Movie('School of rock',
+								'Storyline',
+								'https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg',
+								'https://www.youtube.com/watch?v=XCwy6lW5Ixc')
+
+	ratatouille = media.Movie('Ratatouille',
+								'Storyline',
+								'https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg',
+								'https://www.youtube.com/watch?v=NgsQ8mVkN8w')
+
+	midnightInParis = media.Movie('Midnight In Paris',
+								'Storyline',
+								'https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg',
+								'https://www.youtube.com/watch?v=FAfR8omt-CY')
+
+	hungerGames = media.Movie('Hunger Games',
+								'Storyline',
+								'https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg',
+								'https://www.youtube.com/watch?v=mfmrPu43DF8')
