@@ -60,3 +60,17 @@
 	}
 }
 
+@media screen and (min-width: 549px) {
+	.hero {
+		order: 0;
+		width: 60%;
+	}
+
+	.weather {
+		order: 1;
+		width: 40%;
+	}
+}
+
+
+
